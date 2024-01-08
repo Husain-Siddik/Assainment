@@ -3,29 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 .header {
+   
+    width: 1050px;
+    height: 600px;
+    border-radius: 16px;
+    margin-top: 50px;
+    margin-left:162px;
+    
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url(img/Banner\ Image.png);
+
+    background-position:bottom;
+    
+    
+   
+} 
+
+  .text h3 {
     text-align: center;
     font-family: 'Merriweather', serif;
-    font-style: normal;
-    /* color: #FFF; */
-
-    border-radius: 16px;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-    background-image:url() ;
-}
-
-.header h3 {
-    
     font-size: 32px;
     font-weight: 400;
-    
-
+    margin-top: 117px;
+    color:#fff;
+    padding-top: 110px;
+   
 }
-
-.header h2 {
+.text h2 {
     text-align: center;
+    justify-content: center;
+    height: 190px;
+    width: 632px;
+    margin-left: 150px;
+    font-family: 'Merriweather', serif;
+    color: #fff;
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
+    padding-top: 64px;
+    
+}
+.header h3 ,h2{
+   
 }
