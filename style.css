@@ -145,7 +145,8 @@
 }
 .victor{
     width: 1220px;
-    height:600px ;
+    height:1000px ;
+    
     background-color:#ffe9e9;
     border-radius: 10px;
     text-align: center;
@@ -183,4 +184,76 @@ text-transform: uppercase;
 }
 .victor span{
     color: red;
+}
+
+.plugin{
+    display: flex;
+    width: 1200px;
+    margin:20px;
+    padding:20px;
+}
+.plugin span{
+         color: red;
+        font-family: Inter;
+        font-size: 24px;
+    
+        font-weight: 500;
+
+}
+.text_1{
+width: 30%;
+padding-top: 127px;
+padding-bottom: 20px;
+
+}
+.text_1 h1{
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding-top: 23px;
+}
+
+
+.text_1 h5{
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+padding-top: 23px;
+    padding-bottom: 49px;
+}
+
+.picture{
+width: 44%;
+height: 350px;
+
+}
+.red_round{
+width: 496px;
+height:513px;
+border: 13px solid red;
+border-radius: 50%;
+
+}
+.picture .red_round      #pic{
+justify-content: center;
+padding-top: 52px;
+padding-left: 59px;
+
+
+}
+.text_2{
+width: 30%;
+padding-top: 127px;
+padding-left: 25px;
+}
+.text_2 h5{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-top: 23px;
+    padding-bottom: 49px;
 }
