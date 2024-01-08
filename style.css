@@ -89,7 +89,7 @@
     line-height: normal;
 }
 
-.second img {}
+/* .second img {} */
 
 .welcome {
     align-items: center;
@@ -145,7 +145,7 @@
 }
 .victor{
     width: 1220px;
-    height:1000px ;
+    height:600px ;
     
     background-color:#ffe9e9;
     border-radius: 10px;
@@ -189,8 +189,10 @@ text-transform: uppercase;
 .plugin{
     display: flex;
     width: 1200px;
-    margin:20px;
-    padding:20px;
+    margin:00px;
+    padding:21px;
+    margin-left: 10px;
+    background-color:#ffe9e9;
 }
 .plugin span{
          color: red;
@@ -256,4 +258,100 @@ padding-left: 25px;
     line-height: 32px;
     padding-top: 23px;
     padding-bottom: 49px;
+}
+
+
+
+.awsome_portfolio{
+    margin-left: 25px;
+
+}
+.awsome_portfolio h3{
+    color: #F00;
+     font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.awsome_portfolio h1{
+    font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+
+}
+.awsome_portfolio h5{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+}
+
+
+
+
+
+
+.img-container{
+    display: flexbox;
+
+}
+.img-container img {
+    width: 30%;
+    padding: 5px;
+  }
+
+  
+  .img-container :hover{
+    opacity: 0.5;
+    color: red;
+ }
+
+ .email{
+   text-align: center;
+   justify-content:center;
+   display: inline;
+   padding: 20px;
+    width: 1200px;
+    height: 616px;
+    border: 1px solid black;
+ }
+
+ .email h3{
+    padding: 20px;
+    text-align: center;
+    margin-left: 80px;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+ }
+
+ .email h5{
+color: rgba(7, 2, 17, 0.60);
+/* width: 896px; */
+align-items: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+padding-left: 50px;
+ }
+
+ .input-field{
+    width: 400px;
+    height: 50px;
+    display: inline;
+    border-bottom-left-radius:10px ;
+    border-top-left-radius: 10px;
+ }
+.input-container button{
+    text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+text-transform: capitalize;
+padding: 10px;
+border-bottom-right-radius:10px ;
+    border-top-right-radius: 10px;
 }
