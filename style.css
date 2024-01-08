@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    /* color: #FFF; */
+
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    background-image:url() ;
+}
+
+.header h3 {
+    
+    font-size: 32px;
+    font-weight: 400;
+    
+
+}
+
+.header h2 {
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
