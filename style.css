@@ -192,6 +192,7 @@
 .plugin {
     display: flex;
     width: 1217px;
+    height: 539px;
     padding: 21px;
     margin-left: 36px;
     background-color: #ffe9e9;
@@ -282,6 +283,7 @@
     font-size: 24px;
     font-weight: 500;
     margin-left: 10px;
+    padding-top: 12px;
 }
 
 .awsome_portfolio h1 {
